@@ -1,0 +1,18 @@
+#7847 - Marienhausen
+
+owner = RIG
+controller = RIG
+add_core = RIG
+culture = latgalian #Was latvian but changed by San Felipe on advice of Morsmessor
+religion = catholic
+capital = "Vilaka"			#DE Marienhausen
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = naval_supplies
+is_city = yes
+hre = no
+
+1444.1.1 = { discovered_by = KAZ } 1444.1.1 = { discovered_by = CRI } 1444.1.1 = { discovered_by = GOL } 1444.1.1 = { discovered_by = AST } 1444.1.1 = { discovered_by = QAS } 
+discovered_by = eastern
+discovered_by = western

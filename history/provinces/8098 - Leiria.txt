@@ -1,0 +1,23 @@
+#8098 - Leiria
+
+owner = POR
+controller = POR
+add_core = POR
+culture = portugese
+religion = catholic
+capital = "Leiria"
+base_tax = 2
+base_production = 3
+base_manpower = 3
+trade_goods = lumber #was paper
+is_city = yes
+hre = no
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+
+#Province history completed by - San Felipe
+
+#1444 on

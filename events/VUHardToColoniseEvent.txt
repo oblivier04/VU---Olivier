@@ -1,0 +1,143 @@
+namespace = vu_malaria_background_events
+#By ComradDoge
+# I decided to go for capital_scope as main way to denote who deserves it because otherwise adding every culture group and then maintaining it in the future will get annoying.
+# The only negative of this is that colonies in America or Australia do not get this modifier, but this can be explained as them adapting to the local, will still affect the overlord though. (I am pretty sure I can add some for colonies to still have it but I can't be bothered to think right now.)
+
+country_event = {
+	id = vu_malaria_background_events.1
+	title = vu_malaria_background_events.1.t
+	desc = vu_malaria_background_events.1.d
+	picture = WESTERNISATION_eventPicture
+	hidden = yes # No need for localisation
+
+	trigger = {
+		NOT = { has_global_flag = vu_no_age_restrictions } # If player selected to disable malaria this even will NEVER fire
+		OR = {
+			# If American, African or Oceanic and have a colony with a malaria modifier, event triggers.
+			AND = {
+				capital_scope = {
+					OR = {
+						continent = north_america
+						continent = south_america
+						continent = africa
+						continent = oceania
+					}
+				}
+				any_owned_province = {
+					OR = {
+						continent = north_america
+						continent = south_america
+						continent = africa
+						continent = oceania
+					}
+					is_city = no
+					has_province_modifier = vu_malaria_present
+				}
+			}
+			# If European or Asian, and have a colony with no malaria modifiers, event triggers.
+			AND = {
+				capital_scope = {
+					OR = {
+						NOT = { continent = north_america }
+						NOT = { continent = north_america }
+						NOT = { continent = africa }
+						NOT = { continent = oceania }
+					}
+				}
+				any_owned_province = {
+					OR = {
+						continent = north_america
+						continent = south_america
+						continent = oceania
+						continent = africa
+					}
+					is_city = no
+					NOT = { has_province_modifier = vu_malaria_present }
+				}
+			}
+			# If any province is no longer a colony but still has the modifier, the event triggers.
+			AND = {
+				any_owned_province = {
+					is_city = yes
+					has_province_modifier = vu_malaria_present
+				}
+			}
+		}
+	}
+	
+	# Event can be changed to is_triggered_only = yes and then called somewhere in on_actions, don't know where though so MTTH instead.
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	immediate = {
+		log = "============================== Malaria Background Event Fired =============================="
+		# Every province, that is still a colony but owned by a non-European or non-Asian, will have their malaria modifier removed.
+		every_owned_province = {
+			limit = {
+				is_city = no
+				has_province_modifier = vu_malaria_present
+				owner = {
+					capital_scope = {
+						OR = {
+							continent = north_america
+							continent = south_america
+							continent = africa
+							continent = oceania
+						}
+					}					
+				}
+				OR = {
+					continent = north_america
+					continent = south_america
+					continent = oceania
+					continent = africa
+				}
+			}
+			remove_province_modifier = vu_malaria_present
+		}
+		
+		# Every province, that is still a colony but owned by a European or Asian, AND does not have the malaria modifier, will get the modifier.
+		every_owned_province = {
+			limit = {
+				is_city = no
+				NOT = { has_province_modifier = vu_malaria_present }
+				owner = {
+					NOT = {  
+						capital_scope = {
+							OR = {
+								continent = north_america
+								continent = south_america
+								continent = africa
+								continent = oceania
+							}
+						}	
+					}				
+				}
+				OR = {
+					continent = north_america
+					continent = south_america
+					continent = oceania
+					continent = africa
+				}
+			}
+			add_province_modifier = {
+				name = vu_malaria_present
+				duration = -1
+			}
+		}
+
+		# When no longer a colony, no matter who owns it, if malaria modifier exists, the modifier gets removed.
+		every_owned_province = {
+			limit = {
+				is_city = yes
+				has_province_modifier = vu_malaria_present
+			}
+			remove_province_modifier = vu_malaria_present
+		}		
+	}
+
+	option = {
+		name = vu_malaria_background_events.1.o1
+	}
+}

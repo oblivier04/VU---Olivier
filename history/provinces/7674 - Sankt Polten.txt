@@ -1,0 +1,33 @@
+#6375 - Sankt Polten
+
+owner = AUT
+controller = AUT
+add_core = AUT
+add_core = HAB
+add_core = FRG
+culture = austrian
+religion = catholic
+base_tax = 3
+base_production = 4
+base_manpower = 2
+trade_goods = grain 
+capital = "Sankt Polten" 
+is_city = yes
+hre = yes
+
+#Special Modifiers
+
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}
+
+1444.1.1 = { discovered_by = KAZ } 1444.1.1 = { discovered_by = CRI } 1444.1.1 = { discovered_by = GOL } 1444.1.1 = { discovered_by = AST } 1444.1.1 = { discovered_by = QAS } 
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+
+#Documented 1159 AD
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
