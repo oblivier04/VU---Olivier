@@ -1,0 +1,73 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+government_rank = 1
+technology_group = western
+primary_culture = english
+religion = catholic
+capital = 3144	# Peterborough
+fixed_capital = 3144
+
+#Bishops of Ely
+1444.1.1 = {
+	monarch = {
+		name = "Thomas Bourchier"
+		birth_date = 1404.1.1
+		dip = 3
+		adm = 3
+		mil = 2
+	}
+}
+1454.1.1 = {
+	monarch = {
+		name = "William Grey"
+		birth_date = 1404.1.1
+		dip = 3
+		adm = 3
+		mil = 2
+	}
+}
+1479.1.1 = {
+	monarch = {
+		name = "John Morton"
+		birth_date = 1404.1.1
+		dip = 3
+		adm = 3
+		mil = 2
+	}
+}
+1486.1.1 = {
+	monarch = {
+		name = "John Alcock"
+		birth_date = 1430.1.1
+		dip = 3
+		adm = 3
+		mil = 2
+	}
+}
+1501.1.1 = {
+	monarch = {
+		name = "Richard Redman"
+		birth_date = 1430.1.1
+		dip = 3
+		adm = 3
+		mil = 2
+	}
+}
+1506.1.1 = {
+	monarch = {
+		name = "James Stanley"
+		birth_date = 1465.1.1
+		dip = 3
+		adm = 3
+		mil = 2
+	}
+}
+1515.1.1 = {
+	monarch = {
+		name = "Nicholas West"
+		birth_date = 1461.1.1
+		dip = 3
+		adm = 3
+		mil = 2
+	}
+}
