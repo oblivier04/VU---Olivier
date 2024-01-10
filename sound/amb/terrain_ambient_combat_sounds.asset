@@ -1,0 +1,32 @@
+############### combat_terrain AMBIENT
+
+
+sound = {
+	name = sfx_combat_terrain_forest
+	file = combat_terrain/sfx_combat_terrain_forest.wav
+}
+
+sound = {
+	name = sfx_combat_terrain_mountains
+	file = combat_terrain/sfx_combat_terrain_mountains.wav
+}
+
+sound = {
+	name = sfx_combat_terrain_plains
+	file = combat_terrain/sfx_combat_terrain_plains.wav
+}
+
+sound = {
+	name = sfx_combat_terrain_desert
+	file = combat_terrain/sfx_combat_terrain_desert.wav
+}
+
+sound = {
+	name = sfx_combat_terrain_seaside
+	file = combat_terrain/sfx_combat_terrain_seaside.wav
+}
+
+sound = {
+	name = sfx_combat_terrain_jungle
+	file = combat_terrain/sfx_combat_terrain_jungle.wav
+}
