@@ -1,0 +1,9 @@
+capital = 4375 #Cheshire, Chester
+government_rank = 1
+technology_group = western
+
+government = monarchy
+add_government_reform = norman_lordship_reform
+
+religion = catholic
+primary_culture = northumbrian

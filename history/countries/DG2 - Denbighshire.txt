@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = norman_lordship_reform
+government_rank = 1
+technology_group = western
+primary_culture = english
+#add_accepted_culture = welsh			#This would make the polity more stable, but really isn't historical, so leaving it here disabled.
+religion = catholic
+capital = 8140
+fixed_capital = 8140
+
+1444.1.1 = {
+	monarch = {
+		name = "Richard III"
+		dynasty = "York"
+		female = no
+		birth_date = 1400.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
