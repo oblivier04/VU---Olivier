@@ -1,3 +1,0 @@
-28 = "Uusimaa"
-30 = "Viipuri"
-2327 = { "Magna" "Magna" }

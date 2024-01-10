@@ -1,2 +1,0 @@
-1075 = "Chimgi-Tura"
-2327 = { "Gayal" "Gayal" }

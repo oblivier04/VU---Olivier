@@ -1,2 +1,0 @@
-137 = "Ragusa"
-2327 = { "Magna" "Magna" }

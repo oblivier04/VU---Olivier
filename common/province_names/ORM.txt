@@ -1,2 +1,0 @@
-397 = "Mascalat"
-2327 = { "Magna" "Magna" }
