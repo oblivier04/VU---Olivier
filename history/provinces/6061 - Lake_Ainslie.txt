@@ -1,3 +1,0 @@
-#6061 - Lake_Ainslie
-
-discovered_by = north_american

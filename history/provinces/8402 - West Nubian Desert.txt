@@ -1,3 +1,0 @@
-#8402 - West Nubian Desert
-
-discovered_by = east_african

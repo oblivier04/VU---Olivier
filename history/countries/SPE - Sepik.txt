@@ -1,8 +1,0 @@
-#SPE - Sepik
-government = native
-add_government_reform = native_clan_council_reform
-government_rank = 1
-primary_culture = papuan
-religion = imunu
-technology_group = polynesian_tech
-capital = 2719

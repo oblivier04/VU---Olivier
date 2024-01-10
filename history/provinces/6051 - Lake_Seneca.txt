@@ -1,3 +1,0 @@
-#6051 - Lake_Seneca
-
-discovered_by = north_american

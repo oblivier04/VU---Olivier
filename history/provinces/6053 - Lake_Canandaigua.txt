@@ -1,3 +1,0 @@
-#6053 - Lake_Canandaigua
-
-discovered_by = north_american

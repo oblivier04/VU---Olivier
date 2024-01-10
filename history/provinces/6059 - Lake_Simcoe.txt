@@ -1,3 +1,0 @@
-#6059 - Lake_Simcoe
-
-discovered_by = north_american

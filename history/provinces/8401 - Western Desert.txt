@@ -1,3 +1,0 @@
-#8401 - Western Desert
-
-discovered_by = east_african

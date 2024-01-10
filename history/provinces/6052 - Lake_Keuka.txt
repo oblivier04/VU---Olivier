@@ -1,3 +1,0 @@
-#6052 - Lake_Keuka
-
-discovered_by = north_american

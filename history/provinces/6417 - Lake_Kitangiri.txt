@@ -1,3 +1,0 @@
-#6417 - Lake_Kitangiri
-
-discovered_by = central_african

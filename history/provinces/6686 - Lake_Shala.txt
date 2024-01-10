@@ -1,3 +1,0 @@
-#6686 - Lake_Shala
-
-discovered_by = east_african

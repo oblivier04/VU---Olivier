@@ -1,5 +1,0 @@
-#3760 - South_Sepik
-
-discovered_by = papuan
-
-1526.1.1 = { discovered_by = POR } # Don Jorge de Mneses

@@ -1,3 +1,0 @@
-#6050 - Lake_Cayuga
-
-discovered_by = north_american

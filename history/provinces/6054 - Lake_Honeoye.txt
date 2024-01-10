@@ -1,3 +1,0 @@
-#6054 - Lake_Honeoye
-
-discovered_by = north_american

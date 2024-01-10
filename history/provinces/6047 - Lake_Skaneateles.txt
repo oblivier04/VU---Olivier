@@ -1,3 +1,0 @@
-#6047 - Lake_Skaneateles
-
-discovered_by = north_american

@@ -1,3 +1,0 @@
-#6049 - Lake_Otisco
-
-discovered_by = north_american

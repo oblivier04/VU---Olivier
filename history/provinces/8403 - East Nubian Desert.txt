@@ -1,3 +1,0 @@
-#8403 - East Nubian Desert
-
-discovered_by = east_african

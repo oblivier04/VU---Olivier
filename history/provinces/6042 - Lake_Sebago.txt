@@ -1,3 +1,0 @@
-#6042 - Lake_Sebago
-
-discovered_by = north_american
